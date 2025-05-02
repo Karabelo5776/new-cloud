@@ -1,0 +1,7 @@
+services:
+  - type: static
+    name: cloudcom-frontend
+    env: node
+    buildCommand: npm install && npm run build
+    staticPublishPath: build
+    rootDir: FRONTEND
